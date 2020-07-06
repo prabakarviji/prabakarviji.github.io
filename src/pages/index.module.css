@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.title {
+  padding-top: 3%;
+  text-align: center;
+}
+.desc {
+  text-align: center;
+}
+.avatar {
+  width: 150px;
+  height: 150px;
+  justify-content: center;
+  alig-items: center;
+}
