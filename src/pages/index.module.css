@@ -26,7 +26,11 @@
   align-items: center;
 }
 .icons {
-  margin: 5px;
+  margin: 4px;
   cursor: pointer;
   color: black;
+}
+.email {
+  padding-top: 4%;
+  font-size: 0.9rem;
 }

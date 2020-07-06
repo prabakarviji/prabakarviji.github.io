@@ -29,21 +29,25 @@ const IndexPage = () => (
       </p>
       <div>
         <a href={"https://github.com/prabakarviji"}>
-          <Github size="40" className={Styles.icons} />
+          <Github size="30" className={Styles.icons} />
         </a>
         <a href={"https://www.linkedin.com/in/prabakaran-marimuthu-bb5ab872/"}>
-          <LinkedinSquare size="40" className={Styles.icons} />
+          <LinkedinSquare size="30" className={Styles.icons} />
         </a>
         <a href={"https://twitter.com/prabarth_m"}>
-          <Twitter size="40" className={Styles.icons} />
+          <Twitter size="30" className={Styles.icons} />
         </a>
         <a href={"https://medium.com/@prabart"}>
-          <Medium size="40" className={Styles.icons} />
+          <Medium size="30" className={Styles.icons} />
         </a>
         <a href={"http://instagram.com/prabakviji"}>
-          <Instagram size="40" className={Styles.icons} />
+          <Instagram size="30" className={Styles.icons} />
         </a>
       </div>
+      <span className={Styles.email}>
+        Write to me:&nbsp;
+        <a href="mailto://prabakarviji@gmail.com"> prabakarviji@gmail.com</a>
+      </span>
     </div>
   </Layout>
 )
