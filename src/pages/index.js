@@ -8,6 +8,7 @@ import {
   Medium,
   Twitter,
   Instagram,
+  LinkedinSquare,
 } from "@styled-icons/boxicons-logos"
 
 const IndexPage = () => (
@@ -15,7 +16,7 @@ const IndexPage = () => (
     <SEO title="Home" />
     <div className={Styles.container}>
       <span role="img" aria-label="waving" style={{ paddingRight: 20 }}>
-        👋&nbsp;&nbsp; I'm
+        Hey! 👋&nbsp;&nbsp; I'm
       </span>
       <h1 className={Styles.title}>Prabakaran Marimuthu</h1>
       <img src={Logo} alt="Logo" className={Styles.avatar} />
@@ -29,6 +30,9 @@ const IndexPage = () => (
       <div>
         <a href={"https://github.com/prabakarviji"}>
           <Github size="40" className={Styles.icons} />
+        </a>
+        <a href={"https://www.linkedin.com/in/prabakaran-marimuthu-bb5ab872/"}>
+          <LinkedinSquare size="40" className={Styles.icons} />
         </a>
         <a href={"https://twitter.com/prabarth_m"}>
           <Twitter size="40" className={Styles.icons} />

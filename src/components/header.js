@@ -16,18 +16,19 @@ const Header = ({ siteTitle }) => (
         padding: `1.45rem 1.0875rem`,
       }}
     >
-      <h1 style={{ margin: 0 }}>
+      <span style={{ margin: 0 }}>
         <Link
           to="/"
           style={{
             color: `black`,
             textDecoration: `none`,
-            fontSize: `1.5rem`,
+            fontSize: `1.3rem`,
+            fontWeight: 400,
           }}
         >
           {siteTitle}
         </Link>
-      </h1>
+      </span>
     </div>
   </header>
 )
