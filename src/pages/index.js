@@ -16,7 +16,7 @@ const IndexPage = () => (
     <SEO title="Home" />
     <div className={Styles.container}>
       <span role="img" aria-label="waving" style={{ paddingRight: 20 }}>
-        Hey! 👋&nbsp;&nbsp; I'm
+        Hey! 👋 &nbsp;&nbsp; I'm
       </span>
       <span className={Styles.title}>Prabakaran Marimuthu</span>
       <img src={Logo} alt="Logo" className={Styles.avatar} />
@@ -27,7 +27,7 @@ const IndexPage = () => (
         I'm an avid fan 🦁 of Tesla and Iron Man. I strongly believe that great
         things resulting from hard work 💪.
       </p>
-      <div>
+      <div style={{ marginTop: 20 }}>
         <a href={"https://github.com/prabakarviji"}>
           <Github size="30" className={Styles.icons} />
         </a>

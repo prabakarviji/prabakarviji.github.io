@@ -7,7 +7,7 @@
 .title {
   padding-top: 3%;
   text-align: center;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 2rem;
 }
 .subTitle {
@@ -16,9 +16,10 @@
   font-weight: 500;
   text-decoration: wavy;
   text-align: center;
+  padding-top: 4%;
 }
 .desc {
-  padding-top: 4%;
+  padding-top: 6%;
   text-align: center;
 }
 .avatar {
@@ -26,6 +27,7 @@
   height: 150px;
   justify-content: center;
   align-items: center;
+  margin-top: 2%;
 }
 .icons {
   margin: 4px;
@@ -33,6 +35,6 @@
   color: black;
 }
 .email {
-  padding-top: 4%;
+  padding-top: 6%;
   font-size: 0.9rem;
 }

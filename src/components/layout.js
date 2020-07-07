@@ -45,19 +45,18 @@ const Layout = ({ children }) => {
       </div>
       <footer
         style={{
-          position: "absolute",
-          left: 0,
-          bottom: 15,
-          right: 0,
           justifyContent: "center",
           display: "flex",
           textAlign: "center",
           fontSize: "0.8rem",
           color: "gray",
+          paddingTop: 30,
         }}
       >
-        © {new Date().getFullYear()} Prabakaran Marimuthu ❤️&nbsp;
-        <a href="https://www.gatsbyjs.org">Gatsby</a>
+        <div>
+          © {new Date().getFullYear()} Prabakaran Marimuthu ❤️&nbsp;
+          <a href="https://www.gatsbyjs.org">Gatsby</a>
+        </div>
       </footer>
     </>
   )
