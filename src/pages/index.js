@@ -18,14 +18,14 @@ const IndexPage = () => (
       <span role="img" aria-label="waving" style={{ paddingRight: 20 }}>
         Hey! 👋&nbsp;&nbsp; I'm
       </span>
-      <h1 className={Styles.title}>Prabakaran Marimuthu</h1>
+      <span className={Styles.title}>Prabakaran Marimuthu</span>
       <img src={Logo} alt="Logo" className={Styles.avatar} />
       <span className={Styles.subTitle}>
         Senior Software Engineer @ Spritle Software
       </span>
       <p className={Styles.desc}>
-        I'm an avid fan of Tesla and Iron Man. I strongly believe that great
-        things resulting from hard work.
+        I'm an avid fan 🦁 of Tesla and Iron Man. I strongly believe that great
+        things resulting from hard work 💪.
       </p>
       <div>
         <a href={"https://github.com/prabakarviji"}>
