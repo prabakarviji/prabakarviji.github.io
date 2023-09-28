@@ -14,3 +14,12 @@
   font-size: 14px;
 }
 
+.text-content {
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.6em;
+  color: #000;
+  letter-spacing: 0.01em;
+}
+
