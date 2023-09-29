@@ -3,8 +3,8 @@
   width: 200px;
 }
 
-body{
-  font-family: 'DM Sans', sans-serif;
+.container{
+  font-family: 'DM Sans', sans-serif !important;
 }
 
 .name{
@@ -19,9 +19,9 @@ body{
 }
 
 .text-content {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'DM Sans', sans-serif !important;
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 300;
   line-height: 1.6em;
   color: #000;
   letter-spacing: 0.01em;
