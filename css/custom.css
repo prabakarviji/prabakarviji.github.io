@@ -3,6 +3,10 @@
   width: 200px;
 }
 
+body{
+  font-family: 'DM Sans', sans-serif;
+}
+
 .name{
   font-weight: bold;
 }
