@@ -3,25 +3,61 @@
   width: 200px;
 }
 
+/* uncut-sans-latin-400-normal */
+/* uncut-sans-latin-400-normal */
+@font-face {
+  font-family: 'Uncut Sans';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: url(https://cdn.jsdelivr.net/fontsource/fonts/uncut-sans@latest/latin-400-normal.woff2) format('woff2'), url(https://cdn.jsdelivr.net/fontsource/fonts/uncut-sans@latest/latin-400-normal.woff) format('woff');
+}
+
+/* uncut-sans-latin-500-normal */
+@font-face {
+  font-family: 'Uncut Sans';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 500;
+  src: url(https://cdn.jsdelivr.net/fontsource/fonts/uncut-sans@latest/latin-500-normal.woff2) format('woff2'), url(https://cdn.jsdelivr.net/fontsource/fonts/uncut-sans@latest/latin-500-normal.woff) format('woff');
+}
+
+/* uncut-sans-latin-700-normal */
+@font-face {
+  font-family: 'Uncut Sans';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 700;
+  src: url(https://cdn.jsdelivr.net/fontsource/fonts/uncut-sans@latest/latin-700-normal.woff2) format('woff2'), url(https://cdn.jsdelivr.net/fontsource/fonts/uncut-sans@latest/latin-700-normal.woff) format('woff');
+}
+
 .container{
-  font-family: 'DM Sans', sans-serif !important;
+  /* font-family: 'Karla', sans-serif !important; */
+  font-family: 'Uncut Sans', sans-serif !important;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.5rem;
 }
 
 .name{
-  font-weight: bold;
+  font-weight: 700 !important;
+  font-size: 3rem;
+}
+
+.location{
+  font-size: 15px !important;
 }
 
 .links {
   margin-right: 15px;
   color: #000;
   font-weight: 600;
-  font-size: 14px;
+  font-size: 15px;
 }
 
 .text-content {
-  font-family: 'DM Sans', sans-serif !important;
+  font-family: 'Uncut Sans', sans-serif !important;
   font-size: 16px;
-  font-weight: 300;
   line-height: 1.6em;
   color: #000;
   letter-spacing: 0.01em;
